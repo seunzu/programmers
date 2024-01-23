@@ -1,10 +1,10 @@
-from scipy import stats
+import statistics
 
 a = list(map(int, input().split()))
 
 def solution(array):
-    answer = stats.mode(array)[0]
-    return int(answer)
+    answer = statistics.mode(array)
+    return answer
 
 
 print(solution(a))
