@@ -3,7 +3,7 @@ import numpy as np
 a = list(map(int, input().split()))
 
 def solution(array):
-    answer = int(np.median(array))
+    answer = np.median(array)
     return answer
 
 
