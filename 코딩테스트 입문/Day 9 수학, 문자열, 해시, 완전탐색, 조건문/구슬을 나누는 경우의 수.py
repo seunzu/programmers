@@ -3,6 +3,6 @@ import math
 def solution(balls, share):
     return math.comb(balls, share)
 
-a, b = input().split()
+a, b = map(int, input().split())
 
 print(solution(a, b))
