@@ -1,11 +1,10 @@
 def solution(arr):
-    arr.sort(reverse=True)
-    arr.remove(min(arr))
-    if not arr:
-        arr.append(-1)
-        return arr
-    else:
-        return arr
+    # if len(arr) > 1:
+    #     arr.remove(min(arr))
+    #     return arr
+    # else:
+    #     return [-1]
+    return [i for i in arr if i > min(arr)]
 
 a = list(map(int, input().split()))
 
