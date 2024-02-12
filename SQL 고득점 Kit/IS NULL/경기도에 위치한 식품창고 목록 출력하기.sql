@@ -1,0 +1,2 @@
+CREATE DATABASE programmers_isNull;
+USE programmers_isNull;

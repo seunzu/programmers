@@ -1,0 +1,2 @@
+CREATE DATABASE programmers_groupBy;
+USE programmers_groupBy;

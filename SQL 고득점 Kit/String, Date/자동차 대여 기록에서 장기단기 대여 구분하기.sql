@@ -1,0 +1,2 @@
+CREATE DATABASE programmers_string_date;
+USE programmers_string_date;
