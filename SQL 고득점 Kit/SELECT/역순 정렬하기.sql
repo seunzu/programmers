@@ -1,0 +1,9 @@
+USE programmers_select;
+
+SHOW TABLES;
+
+SELECT 
+    NAME, DATETIME
+FROM
+    ANIMAL_INS3
+ORDER BY ANIMAL_ID DESC; 

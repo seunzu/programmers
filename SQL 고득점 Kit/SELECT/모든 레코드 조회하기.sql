@@ -1,0 +1,11 @@
+USE programmers_select;
+
+SHOW TABLES;
+
+SELECT * FROM ANIMAL_INS3;
+
+SELECT 
+    *
+FROM
+    ANIMAL_INS
+ORDER BY ANIMAL_ID;
