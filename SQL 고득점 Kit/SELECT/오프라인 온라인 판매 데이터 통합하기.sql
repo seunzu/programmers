@@ -1,1 +1,0 @@
-USE programmers_select;
