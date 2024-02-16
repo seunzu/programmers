@@ -1,0 +1,14 @@
+USE programmers_string_date;
+
+SHOW TABLES;
+
+SELECT * FROM ANIMAL_INS;
+
+SELECT 
+    ANIMAL_ID, NAME
+FROM
+    ANIMAL_INS
+WHERE
+    ANIMAL_TYPE = 'Dog'
+        AND UPPER(NAME) LIKE '%EL%'
+ORDER BY NAME;
